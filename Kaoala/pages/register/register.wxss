@@ -1,0 +1,58 @@
+/* pages/register/register.wxss */
+.content{
+  padding:1%;
+}
+.font30{
+  font-size:28rpx;
+}
+input{
+  border:1px solid #eee;
+  /*margin-top:10px;*/
+  padding-left:10rpx;
+  border-radius:5px;
+  width:250rpx;
+  /*display:inline-block*/
+}
+.mt10{margin-top:10px}
+.mr10{margin-right:10px}
+.loginbtn{
+  width:150px;
+  height:30px;
+  line-height:30px;
+  display:inline-block;
+  font-size:30rpx;
+}
+.center{text-align:center}
+.inline{
+  display:inline-block;
+}
+.mr10{
+  margin-right:10px;
+}
+.mt10{
+  margin-top:10px;
+}
+.loginbtn{
+  width:100px;
+  height:30px;
+  line-height:30px;
+  display:inline-block;
+  font-size:30rpx;
+}
+.flex{
+  display: -webkit-flex;
+  display: flex;
+  text-align:center;
+  flex-direction:row;
+   align-items:center;
+  justify-content: flex-start;
+  margin-top:10px;
+}
+text{
+  width:100px;
+  display:inline-block
+}
+.getSmsCodeBtn{
+  width:220rpx;
+  font-size:26rpx;
+}

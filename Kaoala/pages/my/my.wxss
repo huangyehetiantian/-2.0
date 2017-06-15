@@ -1,0 +1,51 @@
+/* my.wxss */
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+.formlogin{
+  width:90%;
+  margin:10px auto;
+  display:block;
+  font-size:30rpx;
+}
+input{
+  border:1px solid #eee;
+  margin-top:10px;
+  padding-left:10rpx;
+  border-radius:5px;
+}
+.flex{
+  display: -webkit-flex;
+  display: flex;
+  text-align:center;
+  flex-direction:row;
+   align-items:center;
+  justify-content: space-between;
+}
+.forgotpassword,.register{
+  color:red;
+  margin-top:15rpx;
+}
+.mt10{margin-top:10px;}
+.mr10{margin-right:10px}
+.loginbtn{
+  width:100px;
+  height:30px;
+  line-height:30px;
+  display:inline-block;
+  font-size:30rpx;
+}
+.center{text-align:center}
+

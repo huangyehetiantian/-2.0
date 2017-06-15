@@ -1,0 +1,23 @@
+<!--pages/register/register.wxml-->
+<view class="content">
+    <form class="font30"  bindsubmit="formSubmit"  >
+      <view class="flex" >
+        <text>手机号</text>
+        <input name="username" maxlength='11' type="number" placeholder="手机号" bindchange="getPhoneNum" placeholder-style="{{placehoderFont}}"/>
+      </view>
+      <view class="flex">      
+         <text>验证码</text>
+         <input name="smsCode" maxlength='6' type="text" placeholder="验证码"  placeholder-style="{{placehoderFont}}" bindchange="getCode" />
+         <button bindtap = "getSmsCode"   class="getSmsCodeBtn" disabled="{{disabled}}">{{getSmsCodeBtnTxt}}</button>
+      </view>
+      <view class="flex">         
+         <text>密码</text>
+         <input id="password" name="password" maxlength='20' password="true" placeholder="密码"  placeholder-style="{{placehoderFont}}" bindchange="getPwd"/>
+      </view>
+      <view class="center">
+           <button  disabled="{{registDisabled}}" formType="submit"  class="mt10 loginbtn" bindtap="mysubmit"    formType="submit" > 
+             确定
+           </button>
+      </view>
+    </form>   
+</view>

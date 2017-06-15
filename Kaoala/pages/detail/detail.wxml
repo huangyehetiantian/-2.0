@@ -1,0 +1,13 @@
+<!--pages/detail/detail.wxml-->
+<image src="../images/banner.png" class="banner"></image>
+<view class="box" wx:for="{{books}}" >
+  <image src="{{item.imgurl}}" class="leftimg"></image>
+  <view class="rightitem mb5">
+     {{item.itemtitle}}
+    <text class="red block money">¥{{item.money}}</text>
+    <view class="font30" class="buide">
+       已售{{item.buidenum}}%<progress percent="{{item.progressnum}}" show-info="true" active color="red" class="progress"/>
+    </view>
+    <button  class="btn" bindtap="gobuy"  data-id="{{index}}">立即抢购</button>
+  </view>
+</view>
